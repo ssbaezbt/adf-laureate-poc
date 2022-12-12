@@ -1,0 +1,21 @@
+{
+	"name": "dsnk_parquet_mat_diaria_mx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rootsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "mex",
+				"container": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

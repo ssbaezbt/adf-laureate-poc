@@ -1,0 +1,17 @@
+{
+	"name": "dsnk_sql_dim_bi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "POCDBMEX",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DIM_BI_MX_CICLO"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

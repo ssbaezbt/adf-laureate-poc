@@ -1,0 +1,17 @@
+{
+	"name": "dsnk_sql_mat_diaria_mx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "POCDBMEX",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "uVIEW_MATRICULA_DIARIA_MX"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

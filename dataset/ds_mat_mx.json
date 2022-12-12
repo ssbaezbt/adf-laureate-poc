@@ -1,0 +1,25 @@
+{
+	"name": "ds_mat_mx",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rootsource",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "uVIEW_MATRICULA_MX.csv",
+				"folderPath": "mex",
+				"container": "root"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

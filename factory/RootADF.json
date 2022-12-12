@@ -1,0 +1,9 @@
+{
+	"name": "RootADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a3acad2-d2a7-4649-bfaf-d3ee095eaa91",
+		"tenantId": "04fd4670-25b6-484b-b798-65b7e8656c12"
+	}
+}
